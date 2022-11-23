@@ -136,6 +136,7 @@ Clang-Tidy Checks
    `bugprone-undelegated-constructor <bugprone/undelegated-constructor.html>`_,
    `bugprone-unhandled-exception-at-new <bugprone/unhandled-exception-at-new.html>`_,
    `bugprone-unhandled-self-assignment <bugprone/unhandled-self-assignment.html>`_,
+   `bugprone-unused-ntd-object <bugprone/unused-ntd-object.html>`_,
    `bugprone-unused-raii <bugprone/unused-raii.html>`_, "Yes"
    `bugprone-unused-return-value <bugprone/unused-return-value.html>`_,
    `bugprone-use-after-move <bugprone/use-after-move.html>`_,

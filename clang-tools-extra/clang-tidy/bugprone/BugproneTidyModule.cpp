@@ -70,6 +70,7 @@
 #include "UndelegatedConstructorCheck.h"
 #include "UnhandledExceptionAtNewCheck.h"
 #include "UnhandledSelfAssignmentCheck.h"
+#include "UnusedNtdObjectCheck.h"
 #include "UnusedRaiiCheck.h"
 #include "UnusedReturnValueCheck.h"
 #include "UseAfterMoveCheck.h"
@@ -198,6 +199,8 @@ public:
         "bugprone-unhandled-self-assignment");
     CheckFactories.registerCheck<UnhandledExceptionAtNewCheck>(
         "bugprone-unhandled-exception-at-new");
+    CheckFactories.registerCheck<UnusedNtdObjectCheck>(
+        "bugprone-unused-ntd-object");
     CheckFactories.registerCheck<UnusedRaiiCheck>("bugprone-unused-raii");
     CheckFactories.registerCheck<UnusedReturnValueCheck>(
         "bugprone-unused-return-value");
